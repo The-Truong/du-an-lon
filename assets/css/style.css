@@ -573,3 +573,113 @@ a {
   margin-left: 10px;
 }
 /* end login */
+
+/* sign */
+.page-sign {
+  background-image: url("../images/background-login.svg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.page-sign .form-account {
+  width: 630px;
+  border-radius: 24px;
+  border: 0.3 solid #B9B9B9;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 90px 57px;
+}
+.page-sign .inner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page-sign .inner-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #202224;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.page-sign .inner-desc {
+  font-weight: 600;
+  font-size: 18px;
+  color: #202224;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-sign .inner-label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #202224;
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.page-sign .inner-group input {
+  height: 56px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #D8D8D8;
+  color: #A6A6A6;
+  outline: none;
+  padding: 0 16px;
+}
+
+.page-sign .inner-action .inner-remember {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-sign .inner-action input {
+  width: 24px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #202224;
+}
+
+.page-sign .inner-action a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #202224;
+}
+
+.page-sign button {
+  height: 56px;
+  border-radius: 8px;
+  background-color: #4880FF;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.page-sign .inner-footer {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #202224;
+}
+.page-sign .inner-footer a {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #5A8CFF;
+  margin-left: 10px;
+}
+/* end sign */
